@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=333
+
+
+A function that, when called, draws a progress bar in the command line:
+
+    Loading file... [####################             ] 65%
+
+Displays and allows options to:
+  1. Display the progress through RPM-like characters
+  2. Display an initial description string
+  3. Allows selection of the character used for the bar
+  4. Optionally, allows any bar length (default is window width)
+
+Just use a call such as:
+  call ProgressBar( 65, "Loading file...", "#", 0 )
+
+
+This is one of many custom utilities and functions for gVim from the Cream project (http://cream.sourceforge.net), a configuration of Vim for those of us familiar with Apple and Windows software. 
+
+
